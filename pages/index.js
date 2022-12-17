@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "@next/font/google";
 import styles from "../styles/Home.module.css";
-
+import Image from 'next/image'
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -18,7 +18,7 @@ export default function Home() {
         <div class="container mx-auto">
           <div className="columns-2">
             <div class="mt-3 flex overflow-hidden columns-2">
-              <img
+              <Image
                 class="inline-block h-12 w-12 rounded-full ring-2 ring-white"
                 src="/1668185015059.jpeg"
                 alt=""
@@ -50,7 +50,6 @@ export default function Home() {
                 </svg>
               </button>
               <a
-                target="_blank"
                 href="https://www.linkedin.com/in/dogukan-karasansar"
                 class="rounded-full bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mx-2"
               >
